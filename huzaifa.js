@@ -15,5 +15,5 @@ function getStringCount(str) {
 function palindrome(str) {
     const halfLength = Math.floor(str.length / 2);
     const reversed = str.split('').reverse().join('');
-    return str.slice(0, halfLength) === reversed.slice(0, halfLength) ? true : false
+    return str.slice(0, halfLength) === reversed.slice(0, halfLength)
 };
