@@ -14,6 +14,6 @@ function getStringCount(str) {
 // Write a function that returns true when a palindrome word given & returns false otherwise
 function palindrome(str) {
     const halfLength = Math.floor(str.length / 2);
-    reversed = str.split('').reverse().join('');
+    const reversed = str.split('').reverse().join('');
     return str.slice(0, halfLength) === reversed.slice(0, halfLength) ? true : false
 };
